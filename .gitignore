@@ -1,0 +1,12 @@
+# AnySleep weights are downloaded on first run (~12 MB) — not part of this repo
+*.pth
+*.onnx
+
+# your recordings stay on your machine
+*.BDF
+*.bdf
+*.EDF
+*.edf
+
+__pycache__/
+.venv/
