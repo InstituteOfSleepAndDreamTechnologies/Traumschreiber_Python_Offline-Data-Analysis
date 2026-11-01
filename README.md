@@ -5,7 +5,7 @@ connection needed once it is set up.**
 
 ![Interactive window: hypnodensity, hypnogram, spectrogram, battery and light, raw EEG viewer, sleep statistics](images/overview_n2_spindles.png)
 
-The [Traumschreiber](https://github.com/InstituteOfSleepAndDreamTechnologies/traumschreiber)
+The [Traumschreiber](https://github.com/sd20-org/traumschreiber)
 records every night as a BDF file on its microSD card. This repository contains a single Python
 script that opens such a file, runs the open-source sleep-staging model
 [AnySleep](https://github.com/dslaborg/AnySleep) on one EEG channel, and shows the result in an
@@ -23,7 +23,7 @@ interactive window:
 > The Traumschreiber is **not a medical device**, and neither is this script. The output is meant
 > for education, research, citizen science and self-observation, not for diagnosing anything.
 > AnySleep was trained on clinical polysomnography; a validation of the Traumschreiber against
-> the sleep lab is under way (see the [Traumschreiber repository](https://github.com/InstituteOfSleepAndDreamTechnologies/traumschreiber#history)).
+> the sleep lab is under way (see the [Traumschreiber repository](https://github.com/sd20-org/traumschreiber#history)).
 
 ## Quick start
 
@@ -31,7 +31,7 @@ You need **Python 3.10 or newer**. Everything else is installed into a separate 
 your system Python stays untouched.
 
 ```bash
-git clone https://github.com/InstituteOfSleepAndDreamTechnologies/Traumschreiber_Python_Offline-Data-Analysis.git
+git clone https://github.com/sd20-org/Traumschreiber_Python_Offline-Data-Analysis.git
 cd Traumschreiber_Python_Offline-Data-Analysis
 
 python3 -m venv .venv
@@ -219,7 +219,7 @@ The files are standard enough for other tools as well, for example
 
 ## Related
 
-- **[Traumschreiber](https://github.com/InstituteOfSleepAndDreamTechnologies/traumschreiber)**:
+- **[Traumschreiber](https://github.com/sd20-org/traumschreiber)**:
   the device: schematic, photos, technical details, community projects.
 - **Get-started tutorial, level 9 "Sleep staging"**:
   [English](https://sd20.org/isdt/en/projects/ts/get-started.html#level-9) ·

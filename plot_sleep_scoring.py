@@ -105,7 +105,7 @@ def read_edf_channel(filepath, channel_idx):
     ADS131M08 chain (gain ×4, 24-bit BDF) this is (300000 − −300000) / (8388607 − −8388608) = 600000 / 16777215
     ≈ 0.03576 µV per digital unit. The derivation (ADC reference, PGA gain,
     header fields) is in the README of
-    github.com/InstituteOfSleepAndDreamTechnologies/Traumschreiber_Python_Offline-Data-Analysis.
+    github.com/sd20-org/Traumschreiber_Python_Offline-Data-Analysis.
     """
     raw = Path(filepath).read_bytes()
     if len(raw) < 256:
